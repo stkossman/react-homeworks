@@ -1,0 +1,18 @@
+---
+const homeworks = [
+    { title: "Homework 1", desc: "Setup Local Env", github: "https://github.com/stkossman/lab-1", vercel: "https://lab-1-lilac.vercel.app"},
+    { title: "Homework 2", desc: "React Component. Props and State", github: "https://github.com/stkossman/lab-2", vercel: "https://lab-2-woad.vercel.app"}
+];
+---
+
+<section class="p-6">
+    <h2 class="text-xl font-bold mb-4">Homeworks</h2>
+    <ul class="space-y-2">
+        {homeworks.map(hw => (
+            <li>
+                <span class="text-white">{hw.title}</span> - {hw.desc}
+                [<a href={hw.github}>Github</a>] [<a href={hw.vercel}>Vercel</a>]
+            </li>
+        ))}
+    </ul>
+</section>

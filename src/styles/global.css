@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+    @apply bg-black text-green-400 font-mono;
+}
+
+a {
+    @apply text-cyan-400 hover:text-yellow-300 underline;
+}
+
+h1, h2 {
+    @apply text-white;
+}
+
+ul li::before {
+    content: "$ ";
+    color: #22c55e;
+}
