@@ -7,7 +7,7 @@ export default function Welcome({ onFinish }) {
     const timer = setTimeout(() => {
       setVisible(false);
       if (onFinish) onFinish();
-    }, 6000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -21,9 +21,6 @@ export default function Welcome({ onFinish }) {
         </p>
         <p className="typing" style={{ animationDelay: "2s" }}>
           Loading university labs...
-        </p>
-        <p className="typing" style={{ animationDelay: "4s" }}>
-          Loading successful.
         </p>
       </div>
     </section>
