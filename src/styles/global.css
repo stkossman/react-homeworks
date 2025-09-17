@@ -50,7 +50,7 @@ ul li::before {
   white-space: nowrap;
   width: 0;
   border-right: 0.15em solid #22c55e;
-  animation: typing 2s steps(40, end) forwards;
+  animation: typing 1s steps(40, end) forwards;
 }
 @keyframes typing {
   to {
