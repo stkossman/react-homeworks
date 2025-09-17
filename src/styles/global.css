@@ -1,29 +1,59 @@
 @import "tailwindcss";
 
 body {
-    @apply bg-black text-green-400 font-mono;
+  @apply bg-black font-mono text-green-400;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 255, 0, 0.05),
+    rgba(0, 255, 0, 0.05) 2px,
+    transparent 2px,
+    transparent 4px
+  );
+  pointer-events: none;
 }
 
 a {
-    @apply text-cyan-400 hover:text-yellow-300 underline;
+  @apply text-cyan-400 underline hover:text-yellow-300;
 }
 
-h1, h2 {
-    @apply text-white;
+h1,
+h2 {
+  @apply text-white;
 }
 
 ul li::before {
-    content: "$ ";
-    color: #22c55e;
+  content: "$ ";
+  color: #22c55e;
 }
 
 @layer utilities {
-    .cursor-blink::after {
-        content: "▌";
-        animation: blink 1s step-start infinite;
-    }
+  .cursor-blink::after {
+    content: "█";
+    animation: blink 1s step-start infinite;
+  }
 }
 
 @keyframes blink {
-    50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  border-right: 0.15em solid #22c55e;
+  animation: typing 2s steps(40, end) forwards;
+}
+@keyframes typing {
+  to {
+    width: 100%;
+  }
 }
