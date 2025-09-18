@@ -1,13 +1,23 @@
 import { useEffect, useState } from "react";
 
-export default function Welcome({ onFinish }) {
-  const [visible, setVisible] = useState(true);
+export default function Welcome() {
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const shown = localStorage.getItem("welcomeShown");
+    if (shown) {
+      setVisible(false);
+      return;
+    }
+
+    setVisible(true);
     const timer = setTimeout(() => {
       setVisible(false);
-      if (onFinish) onFinish();
+      localStorage.setItem("welcomeShown", "true");
     }, 3000);
+
     return () => clearTimeout(timer);
   }, []);
 
