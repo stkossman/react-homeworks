@@ -1,0 +1,39 @@
+---
+import "../../styles/global.css";
+import { homeworks } from "../../data/homeworks.js";
+
+export async function getStaticPaths() {
+  return homeworks.map((hw) => ({
+    params: { slug: hw.slug },
+    props: { hw },
+  }));
+}
+
+const { hw } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{hw.title} - React Homeworks</title>
+  </head>
+  <body class="bg-black p-6 font-mono text-green-400">
+    <a href="/" class="text-cyan-400 underline hover:text-yellow-300">← Back</a>
+
+    <h1 class="mt-4 text-2xl font-bold text-white">{hw.title}</h1>
+    <p class="text-green-300">{hw.desc}</p>
+
+    <div class="mt-4 space-y-2">
+      <p><span class="text-white">Goals:</span> {hw.details.goals}</p>
+      <p><span class="text-white">Time spent:</span> {hw.details.timeSpent}</p>
+      <p><span class="text-white">Points:</span> {hw.details.grade}</p>
+    </div>
+
+    <div class="mt-4">
+      [<a href={hw.github} class="underline hover:text-green-200">GitHub</a>] [<a
+        href={hw.vercel}
+        class="underline hover:text-green-200">Vercel</a
+      >]
+    </div>
+  </body>
+</html>

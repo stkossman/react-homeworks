@@ -24,9 +24,16 @@ import Welcome from "../components/Welcome.jsx";
       <Footer />
     </div>
     <script>
-      setTimeout(() => {
-        document.querySelector("#main").classList.remove("hidden");
-      }, 3000);
+      (function () {
+        if (typeof window === "undefined") return;
+        if (localStorage.getItem("welcomeShown")) {
+          document.querySelector("#main")?.classList.remove("hidden");
+        } else {
+          setTimeout(() => {
+            document.querySelector("#main")?.classList.remove("hidden");
+          }, 3000);
+        }
+      })();
     </script>
   </body>
 </html>
