@@ -1,5 +1,18 @@
 ---
-import { homeworks } from "../data/homeworks.js";
+const homeworks = [
+  {
+    title: "Homework 1",
+    desc: "Setup Local Env",
+    github: "https://github.com/stkossman/lab-1",
+    vercel: "https://lab-1-lilac.vercel.app",
+  },
+  {
+    title: "Homework 2",
+    desc: "React Component. Props and State",
+    github: "https://github.com/stkossman/lab-2",
+    vercel: "https://lab-2-woad.vercel.app",
+  },
+];
 ---
 
 <section class="p-6 font-mono text-green-400">
@@ -7,17 +20,11 @@ import { homeworks } from "../data/homeworks.js";
   <ul class="space-y-1">
     {
       homeworks.map((hw) => (
-        <li>
-          <span class="text-green-400">❯</span>
-          <a
-            href={`/homeworks/${hw.slug}`}
-            class="underline hover:text-green-200"
-          >
-            {hw.title}
-            </a>
-            - {hw.desc}[<a href={hw.github} class="underline hover:text-green-200">GitHub</a>]
-            [<a href={hw.vercel} class="underline hover:text-green-200">Vercel</a>]
-        </li>
+          <li>
+              <span class="text-green-400">❯</span> {hw.title} - {hw.desc}
+              [<a href={hw.github} class="underline hover:text-green-200">GitHub</a>]
+              [<a href={hw.vercel} class="underline hover:text-green-200">Vercel</a>]
+          </li>
       ))
     }
     <li class="cursor-blink">&nbsp;</li>
