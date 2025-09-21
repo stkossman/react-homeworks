@@ -1,5 +1,5 @@
 export const homeworks = [
-  {
+    {
     slug: "homework-1",
     title: "Homework 1",
     desc: "Setup Local Env",
@@ -11,7 +11,7 @@ export const homeworks = [
       grade: "2 + 1 extra point",
     },
   },
-  {
+    {
     slug: "homework-2",
     title: "Homework 2",
     desc: "React Component. Props and State",
@@ -24,4 +24,17 @@ export const homeworks = [
       grade: "2 + 4 extra points",
     },
   },
+    {
+        slug: "homework-3",
+        title: "Homework 3",
+        desc: "Component Tree. Hooks",
+        github: "https://github.com/stkossman/lab-3",
+        vercel: "https://lab-3-tau.vercel.app",
+        details: {
+            goals: "Learn how to build a composable React application by properly colocating state in the TodoList and individual TodoItem components",
+            timeSpent:
+                "Less than 2 hours",
+            grade: "to be determined",
+        },
+    },
 ];
