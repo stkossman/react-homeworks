@@ -26,6 +26,7 @@ const { hw } = Astro.props;
 
     <div class="mt-4 space-y-2">
       <p><span class="text-white">Goals:</span> {hw.details.goals}</p>
+        <p><span class="text-white">Features:</span> {hw.features.length > 0 ? hw.features.join(", ") : "None"}</p>
       <p><span class="text-white">Time spent:</span> {hw.details.timeSpent}</p>
       <p><span class="text-white">Points:</span> {hw.details.grade}</p>
     </div>
