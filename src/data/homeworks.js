@@ -32,12 +32,12 @@ export const homeworks = [
         desc: "Component Tree. Hooks",
         github: "https://github.com/stkossman/lab-3",
         vercel: "https://lab-3-tau.vercel.app",
-        features: ["TypeScript", "TailwindCSS"],
+        features: ["TypeScript", "TailwindCSS", "Prettier"],
         details: {
             goals:
                 "Learn how to build a composable React application by properly colocating state in the TodoList and individual TodoItem components",
             timeSpent: "Less than 2 hours",
-            grade: "to be determined",
+            grade: "2 + 4 extra points (will be 5 extra if I improve diagram)",
         },
     },
 ];
