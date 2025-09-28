@@ -46,7 +46,7 @@ export const homeworks = [
         desc: "Fetching Data. Custom hooks",
         github: "https://github.com/stkossman/lab4-6",
         vercel: "https://lab4-6.vercel.app/",
-        features: ["React Query","TypeScript", "TailwindCSS", "Design Patterns", "Prettier"],
+        features: ["React Query", "Axios", "TypeScript", "TailwindCSS", "Design Patterns", "Prettier"],
         details: {
             goals:
                 "Build a composable React app by abstracting all data-fetching and server state management into a custom hook. Learn to interact with a live REST API for all CRUD operations, including handling loading and error states. Implement a clean, unidirectional data flow.",
