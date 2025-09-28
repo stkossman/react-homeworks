@@ -37,7 +37,21 @@ export const homeworks = [
             goals:
                 "Learn how to build a composable React application by properly colocating state in the TodoList and individual TodoItem components",
             timeSpent: "Less than 2 hours",
-            grade: "2 + 4 extra points (will be 5 extra if I improve diagram)",
+            grade: "2 + 5 extra points",
+        },
+    },
+    {
+        slug: "homework-4",
+        title: "Homework 4",
+        desc: "Fetching Data. Custom hooks",
+        github: "https://github.com/stkossman/lab4-6",
+        vercel: "https://lab4-6.vercel.app/",
+        features: ["React Query","TypeScript", "TailwindCSS", "Design Patterns", "Prettier"],
+        details: {
+            goals:
+                "Build a composable React app by abstracting all data-fetching and server state management into a custom hook. Learn to interact with a live REST API for all CRUD operations, including handling loading and error states. Implement a clean, unidirectional data flow.",
+            timeSpent: "Less than 6 hours",
+            grade: "tbd",
         },
     },
 ];
