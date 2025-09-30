@@ -51,7 +51,7 @@ export const homeworks = [
             goals:
                 "Build a composable React app by abstracting all data-fetching and server state management into a custom hook. Learn to interact with a live REST API for all CRUD operations, including handling loading and error states. Implement a clean, unidirectional data flow.",
             timeSpent: "Less than 6 hours",
-            grade: "tbd",
+            grade: "2 + 5 extra points",
         },
     },
 ];
