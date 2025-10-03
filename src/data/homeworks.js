@@ -54,4 +54,32 @@ export const homeworks = [
             grade: "2 + 5 extra points",
         },
     },
+    {
+        slug: "homework-5",
+        title: "Homework 5",
+        desc: "React Design Patterns 1",
+        github: "https://github.com/stkossman/lab4-6",
+        vercel: "https://lab4-6.vercel.app/",
+        features: ["React Query", "Axios", "TypeScript", "TailwindCSS", "Design Patterns", "Prettier"],
+        details: {
+            goals:
+                "Encapsulate all data operations in a custom useTodos hook. Implement client-side search, pagination, and title editing. Maintain a clear component hierarchy with unidirectional data flow.",
+            timeSpent: "Less than 6 hours",
+            grade: "tbd",
+        },
+    },
+    {
+        slug: "homework-6",
+        title: "Homework 6",
+        desc: "React Design Patterns 2",
+        github: "https://github.com/stkossman/lab4-6",
+        vercel: "https://lab4-6.vercel.app/",
+        features: ["React Query", "Axios", "TypeScript", "TailwindCSS", "Design Patterns", "Prettier"],
+        details: {
+            goals:
+                "Encapsulate all data operations in a custom useTodos hook. Implement client-side search, pagination, and title editing. Maintain a clear component hierarchy with unidirectional data flow.",
+            timeSpent: "Less than 6 hours",
+            grade: "tbd",
+        },
+    },
 ];
