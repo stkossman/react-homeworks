@@ -82,4 +82,18 @@ export const homeworks = [
             grade: "tbd",
         },
     },
+    {
+        slug: "lab-9-test-1",
+        title: "Midterm Examination 1",
+        desc: "Address Book App",
+        github: "https://github.com/stkossman/addressbook",
+        vercel: "https://addressbook-lemon.vercel.app/",
+        features: ["TypeScript", "TailwindCSS", "Design Patterns"],
+        details: {
+            goals:
+                "Build an Address Book app with add, search, and edit functionality. Implement form validation, handle the empty list case, and document the architecture and design patterns used.",
+            timeSpent: "1 hour",
+            grade: "5",
+        },
+    },
 ];
