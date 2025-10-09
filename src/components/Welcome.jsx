@@ -27,10 +27,11 @@ export default function Welcome() {
     <section className="absolute inset-0 z-10 flex h-screen flex-col justify-center bg-black p-6 font-mono text-green-400">
       <div className="loading-relaxed space-y-2 text-lg">
         <p className="typing" style={{ animationDelay: "0s" }}>
-          Welcome to my React Homeworks.
+          Welcome to{" "}
+          <span className="text-white">Ostroh Academy React Course</span>.
         </p>
         <p className="typing" style={{ animationDelay: "2s" }}>
-          Loading university labs...
+          Loading university works...
         </p>
       </div>
     </section>

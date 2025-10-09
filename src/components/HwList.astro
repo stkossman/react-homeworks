@@ -3,13 +3,12 @@ import { homeworks } from "../data/homeworks.js";
 ---
 
 <section class="p-6 font-mono text-green-400">
-  <h2 class="mb-4 text-xl font-bold">Homeworks</h2>
+  <h2 class="mb-4 text-xl font-bold">Works</h2>
   <ul class="space-y-1">
     {
       homeworks.map((hw) => (
         <li>
-          <span class="text-green-400">❯</span> {hw.title} - {hw.desc}[
-          <a href={`/homeworks/${hw.slug}`}>Open</a>]
+          <span class="text-green-400">❯</span> {hw.title} - {hw.desc} [<a href={`/homeworks/${hw.slug}`}>Open</a>]
         </li>
       ))
     }
