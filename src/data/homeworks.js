@@ -44,8 +44,8 @@ export const homeworks = [
     slug: "homework-4",
     title: "Homework 4",
     desc: "Fetching Data. Custom hooks",
-    github: "https://github.com/stkossman/lab4-6",
-    vercel: "https://lab4-6.vercel.app/",
+    github: "https://github.com/stkossman/lab-todo-list",
+    vercel: "https://todo-list-hw4.vercel.app/",
     features: [
       "React Query",
       "Axios",
@@ -65,8 +65,8 @@ export const homeworks = [
     slug: "homework-5",
     title: "Homework 5",
     desc: "React Design Patterns 1",
-    github: "https://github.com/stkossman/lab4-6",
-    vercel: "https://lab4-6.vercel.app/",
+    github: "https://github.com/stkossman/lab-todo-list",
+    vercel: "https://todo-list-hw4.vercel.app/",
     features: [
       "React Query",
       "Axios",
@@ -86,8 +86,8 @@ export const homeworks = [
     slug: "homework-6",
     title: "Homework 6",
     desc: "React Design Patterns 2",
-    github: "https://github.com/stkossman/lab4-6",
-    vercel: "https://lab4-6.vercel.app/",
+    github: "https://github.com/stkossman/lab-todo-list",
+    vercel: "https://todo-list-hw4.vercel.app/",
     features: [
       "React Query",
       "Axios",
