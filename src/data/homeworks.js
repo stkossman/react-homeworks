@@ -100,7 +100,7 @@ export const homeworks = [
       goals:
         "Encapsulate all data operations in a custom useTodos hook. Implement client-side search, pagination, and title editing. Maintain a clear component hierarchy with unidirectional data flow.",
       timeSpent: "Less than 6 hours",
-      grade: "tbd",
+      grade: "2 + 3 extra points",
     },
   },
   {
@@ -115,6 +115,27 @@ export const homeworks = [
         "Build an Address Book app with add, search, and edit functionality. Implement form validation, handle the empty list case, and document the architecture and design patterns used.",
       timeSpent: "1 hour",
       grade: "5",
+    },
+  },
+  {
+    slug: "homework-7",
+    title: "Homework 7",
+    desc: "Optimizing React Applications Using memo, useMemo, and useCallback",
+    github: "https://github.com/stkossman/lab-todo-list",
+    vercel: "https://todo-list-hw4.vercel.app/",
+    features: [
+      "React Query",
+      "Axios",
+      "TypeScript",
+      "TailwindCSS",
+      "Design Patterns",
+      "Prettier",
+    ],
+    details: {
+      goals:
+        "Optimize the Todo List application to minimize unnecessary re-renders by applying React.memo, useCallback, and useMemo strategically.",
+      timeSpent: "Less than 50 minutes",
+      grade: "tbd",
     },
   },
 ];
