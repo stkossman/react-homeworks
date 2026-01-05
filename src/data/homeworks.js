@@ -1,141 +1,160 @@
 export const homeworks = [
-  {
-    slug: "homework-1",
-    title: "Homework 1",
-    desc: "Setup Local Env",
-    github: "https://github.com/stkossman/lab-1",
-    vercel: "https://lab-1-lilac.vercel.app",
-    features: [],
-    details: {
-      goals: "Learn how to setup a local environment for React development.",
-      timeSpent: "Less than 5 minutes",
-      grade: "2 + 1 extra point",
-    },
-  },
-  {
-    slug: "homework-2",
-    title: "Homework 2",
-    desc: "React Component. Props and State",
-    github: "https://github.com/stkossman/lab-2",
-    vercel: "https://lab-2-woad.vercel.app",
-    features: ["TypeScript", "TailwindCSS"],
-    details: {
-      goals: "Learn how to create a React component with props and state.",
-      timeSpent:
-        "Less than 2 hours (since I used TypeScript for the first time)",
-      grade: "2 + 4 extra points",
-    },
-  },
-  {
-    slug: "homework-3",
-    title: "Homework 3",
-    desc: "Component Tree. Hooks",
-    github: "https://github.com/stkossman/lab-3",
-    vercel: "https://lab-3-tau.vercel.app",
-    features: ["TypeScript", "TailwindCSS", "Prettier"],
-    details: {
-      goals:
-        "Learn how to build a composable React application by properly colocating state in the TodoList and individual TodoItem components",
-      timeSpent: "Less than 2 hours",
-      grade: "2 + 5 extra points",
-    },
-  },
-  {
-    slug: "homework-4",
-    title: "Homework 4",
-    desc: "Fetching Data. Custom hooks",
-    github: "https://github.com/stkossman/lab-todo-list",
-    vercel: "https://todo-list-hw4.vercel.app/",
-    features: [
-      "React Query",
-      "Axios",
-      "TypeScript",
-      "TailwindCSS",
-      "Design Patterns",
-      "Prettier",
-    ],
-    details: {
-      goals:
-        "Build a composable React app by abstracting all data-fetching and server state management into a custom hook. Learn to interact with a live REST API for all CRUD operations, including handling loading and error states. Implement a clean, unidirectional data flow.",
-      timeSpent: "Less than 6 hours",
-      grade: "2 + 5 extra points",
-    },
-  },
-  {
-    slug: "homework-5",
-    title: "Homework 5",
-    desc: "React Design Patterns 1",
-    github: "https://github.com/stkossman/lab-todo-list",
-    vercel: "https://todo-list-hw4.vercel.app/",
-    features: [
-      "React Query",
-      "Axios",
-      "TypeScript",
-      "TailwindCSS",
-      "Design Patterns",
-      "Prettier",
-    ],
-    details: {
-      goals:
-        "Encapsulate all data operations in a custom useTodos hook. Implement client-side search, pagination, and title editing. Maintain a clear component hierarchy with unidirectional data flow.",
-      timeSpent: "Less than 6 hours",
-      grade: "tbd",
-    },
-  },
-  {
-    slug: "homework-6",
-    title: "Homework 6",
-    desc: "React Design Patterns 2",
-    github: "https://github.com/stkossman/lab-todo-list",
-    vercel: "https://todo-list-hw4.vercel.app/",
-    features: [
-      "React Query",
-      "Axios",
-      "TypeScript",
-      "TailwindCSS",
-      "Design Patterns",
-      "Prettier",
-    ],
-    details: {
-      goals:
-        "Encapsulate all data operations in a custom useTodos hook. Implement client-side search, pagination, and title editing. Maintain a clear component hierarchy with unidirectional data flow.",
-      timeSpent: "Less than 6 hours",
-      grade: "2 + 3 extra points",
-    },
-  },
-  {
-    slug: "lab-9-test-1",
-    title: "Midterm Examination 1",
-    desc: "Address Book App",
-    github: "https://github.com/stkossman/addressbook",
-    vercel: "https://addressbook-lemon.vercel.app/",
-    features: ["TypeScript", "TailwindCSS", "Design Patterns"],
-    details: {
-      goals:
-        "Build an Address Book app with add, search, and edit functionality. Implement form validation, handle the empty list case, and document the architecture and design patterns used.",
-      timeSpent: "1 hour",
-      grade: "5",
-    },
-  },
-  {
-    slug: "homework-7",
-    title: "Homework 7",
-    desc: "Optimizing React Applications Using memo, useMemo, and useCallback",
-    github: "https://github.com/stkossman/lab-todo-list",
-    vercel: "https://todo-list-hw4.vercel.app/",
-    features: [
-      "React Query",
-      "Axios",
-      "TypeScript",
-      "TailwindCSS",
-      "Design Patterns",
-      "Prettier",
-    ],
-    details: {
-      goals:
-        "Optimize the Todo List application to minimize unnecessary re-renders by applying React.memo, useCallback, and useMemo strategically.",
-      timeSpent: "Less than 50 minutes",
-      grade: "tbd",
-    },
-  },
+	{
+		slug: "homework-1",
+		title: "Homework 1",
+		desc: "Setup Local Env",
+		github: "https://github.com/stkossman/lab-1",
+		vercel: "https://lab-1-lilac.vercel.app",
+		features: [],
+		details: {
+			goals: "Learn how to setup a local environment for React development.",
+			timeSpent: "Less than 5 minutes",
+			grade: "max",
+		},
+	},
+	{
+		slug: "homework-2",
+		title: "Homework 2",
+		desc: "React Component. Props and State",
+		github: "https://github.com/stkossman/lab-2",
+		vercel: "https://lab-2-woad.vercel.app",
+		features: ["TypeScript", "TailwindCSS"],
+		details: {
+			goals: "Learn how to create a React component with props and state.",
+			timeSpent:
+				"Less than 2 hours (since I used TypeScript for the first time)",
+			grade: "max",
+		},
+	},
+	{
+		slug: "homework-3",
+		title: "Homework 3",
+		desc: "Component Tree. Hooks",
+		github: "https://github.com/stkossman/lab-3",
+		vercel: "https://lab-3-tau.vercel.app",
+		features: ["TypeScript", "TailwindCSS", "Prettier"],
+		details: {
+			goals:
+				"Learn how to build a composable React application by properly colocating state in the TodoList and individual TodoItem components",
+			timeSpent: "Less than 2 hours",
+			grade: "max",
+		},
+	},
+	{
+		slug: "homework-4",
+		title: "Homework 4",
+		desc: "Fetching Data. Custom hooks",
+		github: "https://github.com/stkossman/lab-todo-list",
+		vercel: "https://todo-list-hw4.vercel.app/",
+		features: [
+			"React Query",
+			"Axios",
+			"TypeScript",
+			"TailwindCSS",
+			"Design Patterns",
+			"Prettier",
+		],
+		details: {
+			goals:
+				"Build a composable React app by abstracting all data-fetching and server state management into a custom hook. Learn to interact with a live REST API for all CRUD operations, including handling loading and error states. Implement a clean, unidirectional data flow.",
+			timeSpent: "Less than 6 hours",
+			grade: "max",
+		},
+	},
+	{
+		slug: "homework-5",
+		title: "Homework 5",
+		desc: "React Design Patterns 1",
+		github: "https://github.com/stkossman/lab-todo-list",
+		vercel: "https://todo-list-hw4.vercel.app/",
+		features: [
+			"React Query",
+			"Axios",
+			"TypeScript",
+			"TailwindCSS",
+			"Design Patterns",
+			"Prettier",
+		],
+		details: {
+			goals:
+				"Encapsulate all data operations in a custom useTodos hook. Implement client-side search, pagination, and title editing. Maintain a clear component hierarchy with unidirectional data flow.",
+			timeSpent: "Less than 6 hours",
+			grade: "max",
+		},
+	},
+	{
+		slug: "homework-6",
+		title: "Homework 6",
+		desc: "React Design Patterns 2",
+		github: "https://github.com/stkossman/lab-todo-list",
+		vercel: "https://todo-list-hw4.vercel.app/",
+		features: [
+			"React Query",
+			"Axios",
+			"TypeScript",
+			"TailwindCSS",
+			"Design Patterns",
+			"Prettier",
+		],
+		details: {
+			goals:
+				"Encapsulate all data operations in a custom useTodos hook. Implement client-side search, pagination, and title editing. Maintain a clear component hierarchy with unidirectional data flow.",
+			timeSpent: "Less than 6 hours",
+			grade: "max",
+		},
+	},
+	{
+		slug: "lab-9-test-1",
+		title: "Midterm Examination 1",
+		desc: "Address Book App",
+		github: "https://github.com/stkossman/addressbook",
+		vercel: "https://addressbook-lemon.vercel.app/",
+		features: ["TypeScript", "TailwindCSS", "Design Patterns"],
+		details: {
+			goals:
+				"Build an Address Book app with add, search, and edit functionality. Implement form validation, handle the empty list case, and document the architecture and design patterns used.",
+			timeSpent: "1 hour",
+			grade: "max",
+		},
+	},
+	{
+		slug: "homework-7",
+		title: "Homework 7",
+		desc: "Optimizing React Applications Using memo, useMemo, and useCallback",
+		github: "https://github.com/stkossman/lab-todo-list",
+		vercel: "https://todo-list-hw4.vercel.app/",
+		features: [
+			"React Query",
+			"Axios",
+			"TypeScript",
+			"TailwindCSS",
+			"Design Patterns",
+			"Prettier",
+		],
+		details: {
+			goals:
+				"Optimize the Todo List application to minimize unnecessary re-renders by applying React.memo, useCallback, and useMemo strategically.",
+			timeSpent: "Less than 50 minutes",
+			grade: "max",
+		},
+	},
+	{
+		slug: "final-proj",
+		title: "Final Project - Shared Wishlist",
+		desc: "A shared digital archive for managing wishlists between two users",
+		features: [
+			"Astro",
+			"TailwindCSS",
+			"Firebase",
+			"Node.js",
+			"TypeScript",
+			"Telegraf",
+		],
+		details: {
+			goals:
+				"Develop a shared wishlist application that allows two users to manage and share their wishlists in real-time, with features for adding, editing, and deleting items, as well as notifications via Telegram bot.",
+			timeSpent: "1 Week",
+			grade: "max",
+		},
+	},
 ];

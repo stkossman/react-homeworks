@@ -34,11 +34,21 @@ const { hw } = Astro.props;
       <p><span class="text-white">Points:</span> {hw.details.grade}</p>
     </div>
 
-    <div class="mt-4">
-      [<a href={hw.github} class="underline hover:text-green-200">GitHub</a>] [<a
-        href={hw.vercel}
-        class="underline hover:text-green-200">Vercel</a
-      >]
+    <div class="mt-4 flex flex-wrap gap-3">
+      {
+        hw.github && (
+          <div>
+            [<a href={hw.github} class="underline hover:text-green-200" target="_blank" rel="noopener noreferrer">GitHub</a>]
+          </div>
+        )
+      }
+      {
+        hw.vercel && (
+          <div>
+            [<a href={hw.vercel} class="underline hover:text-green-200" target="_blank" rel="noopener noreferrer">Vercel</a>]
+          </div>
+        )
+      }
     </div>
   </body>
 </html>
